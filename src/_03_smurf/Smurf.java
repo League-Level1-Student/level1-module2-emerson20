@@ -36,9 +36,8 @@ public class Smurf {
 		}else {
 			return name + "Smurf is wearing a white hat.";
 		}
-		
 	}
-
+	
 	/* Smurfette is the only female Smurf. */
 	public String isGirlOrBoy() {
 		// 4. Fill in this method
@@ -47,10 +46,5 @@ public class Smurf {
 		}else {
 			return name + "is a boy.";
 		}
-		
-		
 	}
-
-}
-
-
+}                                                                                                                 

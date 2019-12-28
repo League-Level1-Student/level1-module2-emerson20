@@ -1,16 +1,18 @@
 package _03_smurf;
 
-import _02_sea_creature.SeaCreature;
+
 
 public class Runner2 {
 	public static void main(String[] args) {
 		Smurf saw = new Smurf("Handy");
-	saw. eat();
 	saw.getName();
+	saw. eat();
 	Smurf bat = new Smurf("Papa");
+	bat.getName();
 	bat. getHatColor(); 
 	bat. isGirlOrBoy();
 	Smurf bate = new Smurf("Smurfette");
+	bate.getName();
 	bate. getHatColor(); 
 	bate. isGirlOrBoy();
 	}
@@ -20,7 +22,9 @@ public class Runner2 {
 	 * 3&4 see comments in code below
 	 * 5. Make a Papa Smurf and print his name, hat color and girl or boy.
 	 * 6. Make a Smurfette and print her name, hat color and girl or boy. 
+	 * import _02_sea_creature.SeaCreature;
 	 */
 	
 	
 }
+                                                                                                                  
