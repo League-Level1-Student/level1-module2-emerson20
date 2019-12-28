@@ -5,16 +5,16 @@ package _03_smurf;
 public class Runner2 {
 	public static void main(String[] args) {
 		Smurf saw = new Smurf("Handy");
-	saw.getName();
+	System.out.println(saw.getName());
 	saw. eat();
 	Smurf bat = new Smurf("Papa");
-	bat.getName();
-	bat. getHatColor(); 
-	bat. isGirlOrBoy();
+	System.out.println(bat.getName());
+	System.out.println(bat. getHatColor());
+	System.out.println(bat. isGirlOrBoy());
 	Smurf bate = new Smurf("Smurfette");
-	bate.getName();
-	bate. getHatColor(); 
-	bate. isGirlOrBoy();
+	System.out.println(bate.getName());
+	System.out.println(bate. getHatColor()); 
+	System.out.println(bate. isGirlOrBoy());
 	}
 	/* 
 	 * 1. Watch this Smurf cartoon: https://www.youtube.com/watch?v=RqbpzEHuO2g

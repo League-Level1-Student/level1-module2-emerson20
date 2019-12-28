@@ -42,9 +42,9 @@ public class Smurf {
 	public String isGirlOrBoy() {
 		// 4. Fill in this method
 		if (name == "Smurfette") {
-			return name + "is a girl.";
+			return name + " is a girl.";
 		}else {
-			return name + "is a boy.";
+			return name + " is a boy.";
 		}
 	}
 }                                                                                                                 
